@@ -84,9 +84,11 @@ Strings are made up of text within quotation marks, either single or double quot
 
 **Prompt** captures the users response and stores the value. We can then use this stored information and use it somewhere else. In programming speak, this is referred to as a **Returned Value**. 
 
-```var visitorName = prompt("What is you name");```       
+```var visitorName = prompt("What is you name");```   
 
-```alert(visitorName);```
+
+alert(**visitorName**);
+
 
 ----
 
