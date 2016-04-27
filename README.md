@@ -48,7 +48,8 @@ All browsers have JavaScript Console just like CSS has the Inspect tool.
 
 ````var message = "Hello";````  // String based variable
 
-````alert(message);````
+**alert(message);**
+
 
 ````message = "Hello World";````  We don't need to put a var in front of this one as we only do that when we create the first initial variable with the same name. 
 
@@ -85,7 +86,7 @@ Strings are made up of text within quotation marks, either single or double quot
 
 ````var visitorName = prompt("What is you name");````       
 
-````alert(visitorName);````
+**alert(visitorName);**
 
 ----
 
