@@ -3,33 +3,36 @@ JavaScript based Cheatsheet with sources from Treehouse
 
 ---
 
-**Script tag = <script src="script.js"></script>**
+```Script tag = <script src="script.js"></script>```
 placed either before the closing </head> or </body> tags; benefit of placing before the body tag is that it will let the browser load and display any HTML before running the JavaScript.
 
 ---
 
-Alert("Hello World"); = Displays an alert window with a message inside the quotes for the user to then close via pressing "OK". 
+```Alert("Hello World");``` = Displays an alert window with a message inside the quotes for the user to then close via pressing "OK". 
 
 ---
 
-document.write("Hello World"); = Writes out a message to the html on the page.
+```document.write("Hello World");``` = Writes out a message to the html on the page.
 
 ----
 
-**Web Browsers:**
+##### Web Browsers:
 When the browser executes a line of programming code, a dialogue box appears on the screen. 
 
 All browsers have JavaScript Console just like CSS has the Inspect tool. 
-Chrome Console Keyboard Shortcuts
-Windows: Ctrl + Shift + J
-Mac: Cmd + Option + J
-Firefox Console Keyboard Shortcuts
-Windows: Ctrl + Shift + K
-Mac: Cmd + Option + K
-Internet Explorer Console Keyboard Shortcuts
-F12 key
-Safari Console Keyboard Shortcuts
-Cmd + Option + C
+
+##### Chrome Console Keyboard Shortcuts
+* Windows: Ctrl + Shift + J
+* Mac: Cmd + Option + J
+
+##### Firefox Console Keyboard Shortcuts
+* Windows: Ctrl + Shift + K
+* Mac: Cmd + Option + K
+
+##### Internet Explorer Console Keyboard Shortcuts
+* Windows & Mac: F12 key
+* Safari Console Keyboard Shortcuts
+* Cmd + Option + C
 
 
 Console.log("Hello World"); = Let's you place in your JavaScript code to display a message in your console. This is good for Debugging code and checking if a piece of code if reaching that console.log();
