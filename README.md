@@ -6,6 +6,8 @@ https://developer.mozilla.org/en-US/
 
 ---
 
+####Placing Scipts
+
 ```Script tag = <script src="script.js"></script>```
 placed either before the closing ```</head>``` or ```</body>``` tags; benefit of placing before the body tag is that it will let the browser load and display any HTML before running the JavaScript.
 
@@ -19,7 +21,7 @@ placed either before the closing ```</head>``` or ```</body>``` tags; benefit of
 
 ----
 
-##### Web Browsers:
+#### Web Browsers:
 When the browser executes a line of programming code, a dialogue box appears on the screen. 
 
 All browsers have JavaScript Console just like CSS has the Inspect tool. 
@@ -39,6 +41,8 @@ All browsers have JavaScript Console just like CSS has the Inspect tool.
 
 ----
 
+####Console.log
+
 ```Console.log("Hello World")```; = Let's you place in your JavaScript code to display a message in your console. This is good for Debugging code and checking if a piece of code if reaching that console.log();
 
 ----
@@ -46,6 +50,8 @@ All browsers have JavaScript Console just like CSS has the Inspect tool.
 **Syntax Error** = A grammicalerror located in your code that is stopping the code from executing correctly.
 
 ----
+
+####Variables
 
 **Variables || Var = Stored data**.  For example: ```var score = "0";```
 
@@ -79,12 +85,16 @@ Strings are made up of text within quotation marks, either single or double quot
 
 ----
 
+####Spacing
+
 **Spacing** = When programming it's good to add space, however having too much or too little space can be a bad thing. For example: 
 
 **Bad Spacing**: ```vardaysInWeek =7; || var     days     In     Week =      7;```
 **Good Spacing**: ```var daysInWeek = 7;```  // as you can see, we only separate space when it's needed to divide different areas.
 
 ----
+
+####Prompt();
 
 ```Prompt command || prompt("Please click Me");``` = Like the ```alert("Hello World");``` command, this will be a popup box however the prompt will ask the user to interactive without via either filing out an input field or simply clicking a button in order to carry on. 
 
@@ -98,6 +108,8 @@ alert(**visitorName**);
 The prompt command will in the end return a string. 
 
 ----
+
+####Combining strings
 
 **Combining strings** = in order to place multiple string values inside quotation marks, you simple divide them with a + symbol.
 For example:
@@ -133,6 +145,8 @@ Just like a variable, properties are dynamic and can change.
 
 ---
 
+####Methods
+
 **Methods || .example();** = The parentheses at the end of a property indicate that it's also a method.  A command you can perform on a string. 
 
 For Example: 
@@ -141,7 +155,7 @@ For Example:
 
 ---
 
-**Basic application to merge two prompt inputs together to give you a subTotal.**
+####Basic application to merge two prompt inputs together to give you a subTotal.
  
 ```var jobOne = Number(prompt("How many hours have you worked on job 1?"));```
 ```var jobTwo = Number(prompt("How many hours have you worked on job 2?"));```
