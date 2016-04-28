@@ -1,6 +1,9 @@
 # JavaScript-Cheatsheet
 JavaScript based Cheatsheet with sources from Treehouse
 
+**Useful resources:** 
+https://developer.mozilla.org/en-US/
+
 ---
 
 ```Script tag = <script src="script.js"></script>```
@@ -46,6 +49,9 @@ All browsers have JavaScript Console just like CSS has the Inspect tool.
 
 **Variables || Var = Stored data**.  For example: ```var score = "0";```
 
+data || content placed on the right of a variable, will be getting stored into the var on the left. 
+```var message = 'Hello ';```
+
 ```var message = "Hello";```  // String based variable
 
 **alert(message);**
@@ -89,6 +95,82 @@ Strings are made up of text within quotation marks, either single or double quot
 
 alert(**visitorName**);
 
+The prompt command will in the end return a string. 
 
 ----
 
+**Combining strings** = in order to place multiple string values inside quotation marks, you simple divide them with a + symbol.
+For example:
+* ```var visitor = prompt('what is you name?');```
+* ```var message = 'Hello ' + visitor + '.' + 'welcome';```
+* ```document.write(message);```
+
+code can also be more easier to read when you use smaller statements rather than one long statement. 
+For Example: 
+* ```var visitor = prompt('what is you name?');```
+* ```var message = 'Hello ' + visitor + '.' + 'welcome';```
+* ```message = message + "This is added onto the end";```
+* ```document.write(message);```
+
+we are basically accessing the stuff in the first variables and then adding onto it once we've hit the second request indicating changes to the message variable before then writing out on the page. 
+
+This method is also called **Concatenation** - The combining of strings. 
+
+---
+
+**Length phrase || .length** = Finding out how many characters are made up from the data you passed into it. 
+For Example:
+* ```var lengthExample = 'Welcome';```
+* ```console.log(lengthExample.length);```
+
+separating and understanding a call.
+**message.length ===   Object | Accessing a property | Property**
+
+A property is kinda like a variable, it holds information. A string's length property contains a number, you can use the length property on any string, even a literal collection of charters inside a quote. Removing one character will change the length value. 
+Just like a variable, properties are dynamic and can change. 
+
+---
+
+Methods || .example(); = The parentheses at the end of a property indicate that it's also a method.  A command you can perform on a string. 
+
+For Example: 
+* ```console.log( "TEST".toLowerCase() );``` // "test"
+* ```document.write();```
+
+---
+
+**Basic application to merge two prompt inputs together to give you a subTotal.**
+ 
+```var jobOne = Number(prompt("How many hours have you worked on job 1?"));```
+```var jobTwo = Number(prompt("How many hours have you worked on job 2?"));```
+
+```var total = jobOne + jobTwo;```
+
+
+```document.write("You've worked" + " " + total + " " + "Hours");```
+
+---
+
+####Working with Numbers
+
+Numbers can be **whole numbers**, referred to as integers, like 5, 0, -100, 9999. OR even using **decimal points** or **scientific notation**. 
+
+Numbers can be placed in variables as well as stings.
+For example. 
+```var pi = 3.141592653589793;```
+
+Unlike strings however, you don't put quote marks around a number declared inside a variable object. If you do, you have string and not a number. 
+
+**Operators:**
+* Adding two numbers together, you'd use the + symbol. || 4 + 3; \\ Plus
+* Subtracting two numbers together, you'd use the - symbol. || 4 - 3;  \\ Minus
+* Multiplying two numbers together, you'd use the * symbol. || 4 * 3; \\ Asterix
+* Dividing two numbers together, you'd use the / symbol. || 4 / 3; \\ Divider
+
+**Shorthand Versions**
+* ```score = score + 10; || score += 10;```
+* ```score = score - 20; || score -+ 20;```
+* ```score = score * 5; || score *= 5;```
+* ```score = score / 2; || score /= 2;```
+
+---
