@@ -4,7 +4,7 @@ JavaScript based Cheatsheet with sources from Treehouse
 ---
 
 ```Script tag = <script src="script.js"></script>```
-placed either before the closing **</head>** or **</body>** tags; benefit of placing before the body tag is that it will let the browser load and display any HTML before running the JavaScript.
+placed either before the closing ```</head>``` or ```</body>``` tags; benefit of placing before the body tag is that it will let the browser load and display any HTML before running the JavaScript.
 
 ---
 
