@@ -27,17 +27,18 @@ When the browser executes a line of programming code, a dialogue box appears on 
 All browsers have JavaScript Console just like CSS has the Inspect tool. 
 
 ##### Chrome Console Keyboard Shortcuts
-* Windows: Ctrl + Shift + J
-* Mac: Cmd + Option + J
+* Windows: ```Ctrl + Shift + J```
+* Mac: Cmd + ```Option + J```
 
 ##### Firefox Console Keyboard Shortcuts
-* Windows: Ctrl + Shift + K
-* Mac: Cmd + Option + K
+* Windows: ```Ctrl + Shift + K```
+* Mac: ```Cmd + Option + K```
 
 ##### Internet Explorer Console Keyboard Shortcuts
-* Windows & Mac: F12 key
-* Safari Console Keyboard Shortcuts
-* Cmd + Option + C
+* Windows & Mac: ```F12``` key
+
+##### Safari Console Keyboard Shortcuts
+*  ```Cmd + Option + C```
 
 ----
 
