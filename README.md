@@ -28,7 +28,7 @@ All browsers have JavaScript Console just like CSS has the Inspect tool.
 
 ##### Chrome Console Keyboard Shortcuts
 * Windows: ```Ctrl + Shift + J```
-* Mac: Cmd + ```Option + J```
+* Mac: ```Cmd + Option + J```
 
 ##### Firefox Console Keyboard Shortcuts
 * Windows: ```Ctrl + Shift + K```
