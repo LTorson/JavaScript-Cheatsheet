@@ -118,6 +118,8 @@ This method is also called **Concatenation** - The combining of strings.
 
 ---
 
+####.length();
+
 **Length phrase || .length** = Finding out how many characters are made up from the data you passed into it. 
 For Example:
 * ```var lengthExample = 'Welcome';```
@@ -131,7 +133,7 @@ Just like a variable, properties are dynamic and can change.
 
 ---
 
-Methods || .example(); = The parentheses at the end of a property indicate that it's also a method.  A command you can perform on a string. 
+**Methods || .example();** = The parentheses at the end of a property indicate that it's also a method.  A command you can perform on a string. 
 
 For Example: 
 * ```console.log( "TEST".toLowerCase() );``` // "test"
