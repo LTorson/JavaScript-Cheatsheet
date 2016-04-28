@@ -178,10 +178,10 @@ For example.
 Unlike strings however, you don't put quote marks around a number declared inside a variable object. If you do, you have string and not a number. 
 
 **Operators:**
-* Adding two numbers together, you'd use the **+** symbol. || 4 + 3; \\ Plus
-* Subtracting two numbers together, you'd use the **-** symbol. || 4 - 3;  \\ Minus
-* Multiplying two numbers together, you'd use the ***** symbol. || 4 * 3; \\ Asterix
-* Dividing two numbers together, you'd use the **/** symbol. || 4 / 3; \\ Divider
+* Adding two numbers together, you'd use the **+** symbol. || 4 + 3; \\ **Plus**
+* Subtracting two numbers together, you'd use the **-** symbol. || 4 - 3;  \\ **Minus**
+* Multiplying two numbers together, you'd use the * symbol. || 4 * 3; \\ **Asterix**
+* Dividing two numbers together, you'd use the **/** symbol. || 4 / 3; \\ **Divider**
 
 **Shorthand Versions**
 * ```score = score + 10; || score += 10;```
