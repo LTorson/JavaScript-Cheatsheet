@@ -191,3 +191,23 @@ Unlike strings however, you don't put quote marks around a number declared insid
 * ```score = score / 2; || score /= 2;```
 
 ---
+
+**Object Notation**
+
+Creating Sub Methods within a function so you can better control and run your functions with as many sub methods as you want.
+
+var $navigationList = $('.navigation__list');
+var navHeight = {
+    init: function() {
+        $navigationList.css({
+            'min-height': $navigationList.height(),
+            'max-height': $navigationList.height()
+        });
+    },
+    reset: function(){
+        $navigationList.css({
+            'min-height': '0',
+            'max-height': 'none'
+        });
+    }
+};
