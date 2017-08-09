@@ -6,7 +6,7 @@ https://developer.mozilla.org/en-US/
 
 ---
 
-####Placing Scipts
+### Placing Scripts
 
 ```Script tag = <script src="script.js"></script>```
 placed either before the closing ```</head>``` or ```</body>``` tags; benefit of placing before the body tag is that it will let the browser load and display any HTML before running the JavaScript.
@@ -30,19 +30,19 @@ All browsers have JavaScript Console just like CSS has the Inspect tool.
 * Windows: ```Ctrl + Shift + J```
 * Mac: ```Cmd + Option + J```
 
-##### Firefox Console Keyboard Shortcuts
+#### Firefox Console Keyboard Shortcuts
 * Windows: ```Ctrl + Shift + K```
 * Mac: ```Cmd + Option + K```
 
-##### Internet Explorer Console Keyboard Shortcuts
+#### Internet Explorer Console Keyboard Shortcuts
 * Windows & Mac: ```F12``` key
 
-##### Safari Console Keyboard Shortcuts
+#### Safari Console Keyboard Shortcuts
 *  ```Cmd + Option + C```
 
 ----
 
-####Console.log
+### Console.log
 
 ```Console.log("Hello World")```; = Let's you place in your JavaScript code to display a message in your console. This is good for Debugging code and checking if a piece of code if reaching that console.log();
 
@@ -52,7 +52,7 @@ All browsers have JavaScript Console just like CSS has the Inspect tool.
 
 ----
 
-####Variables
+### Variables
 
 **Variables || Var = Stored data**.  For example: ```var score = "0";```
 
@@ -68,14 +68,14 @@ data || content placed on the right of a variable, will be getting stored into t
 
 variables are interchangeable throughout your code. 
 
-##### Use descriptive naming conventions: 
+#### Use descriptive naming conventions: 
 
 Bad Naming                    Good Naming
 ```var p = "Player";```             ```var PlayerScore = "PlayerOne";```
 
 ----
 
-#### Two Common Value Types
+### Two Common Value Types
 
 **Numbers** = Used for making calculations, adding, subtracting - keeping track of scores and more. 
 
@@ -86,7 +86,7 @@ Strings are made up of text within quotation marks, either single or double quot
 
 ----
 
-####Spacing
+### Spacing
 
 **Spacing** = When programming it's good to add space, however having too much or too little space can be a bad thing. For example: 
 
@@ -95,7 +95,7 @@ Strings are made up of text within quotation marks, either single or double quot
 
 ----
 
-####Prompt();
+### Prompt();
 
 ```Prompt command || prompt("Please click Me");``` = Like the ```alert("Hello World");``` command, this will be a popup box however the prompt will ask the user to interactive without via either filing out an input field or simply clicking a button in order to carry on. 
 
@@ -110,7 +110,7 @@ The prompt command will in the end return a string.
 
 ----
 
-####Combining strings
+### Combining strings
 
 **Combining strings** = in order to place multiple string values inside quotation marks, you simple divide them with a + symbol.
 For example:
@@ -131,7 +131,7 @@ This method is also called **Concatenation** - The combining of strings.
 
 ---
 
-####.length();
+### .length();
 
 **Length phrase || .length** = Finding out how many characters are made up from the data you passed into it. 
 For Example:
@@ -146,7 +146,7 @@ Just like a variable, properties are dynamic and can change.
 
 ---
 
-####Methods
+### Methods
 
 **Methods || .example();** = The parentheses at the end of a property indicate that it's also a method.  A command you can perform on a string. 
 
@@ -156,7 +156,7 @@ For Example:
 
 ---
 
-####Basic application to merge two prompt inputs together to give you a subTotal.
+### Basic application to merge two prompt inputs together to give you a subTotal.
  
 ```var jobOne = Number(prompt("How many hours have you worked on job 1?"));```
 ```var jobTwo = Number(prompt("How many hours have you worked on job 2?"));```
@@ -168,7 +168,7 @@ For Example:
 
 ---
 
-####Working with Numbers
+### Working with Numbers
 
 Numbers can be **whole numbers**, referred to as integers, like 5, 0, -100, 9999. OR even using **decimal points** or **scientific notation**. 
 
